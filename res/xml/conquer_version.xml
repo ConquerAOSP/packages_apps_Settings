@@ -35,13 +35,6 @@
         settings:controller="com.android.settings.deviceinfo.conqueros.ConquerOSVersionPreferenceController"/>
 
     <Preference
-        android:key="caf_tag"
-        android:title="@string/caf_tag_title"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.conqueros.CAFTagVersionPreferenceController"/>
-	
-    <Preference
         android:key="conqueros_build_number"
         android:title="@string/conqueros_build_number_title"
         android:summary="@string/summary_placeholder"
